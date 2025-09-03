@@ -14,3 +14,14 @@
         color: var(--branco);
         font-family: 'Chakra petch' , sans-serif;
     }
+
+    .conteudo-pricipal {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      max-width: 1200px;
+      width: 100%;
+      margin: 0 auto;
+      
+    }
