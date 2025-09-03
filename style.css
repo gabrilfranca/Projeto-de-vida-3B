@@ -23,5 +23,13 @@
       max-width: 1200px;
       width: 100%;
       margin: 0 auto;
-      
+    }
+
+    .titulo-pricinpal {
+      text-align: left;
+      width: 100%;
+      font-size: 32px;
+    }
+    .titulo-pricinpal span {
+      color: var(--verde);
     }
