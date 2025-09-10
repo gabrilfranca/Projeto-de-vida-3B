@@ -35,7 +35,7 @@
     }
 
   .botao {
-    fonte-family: "Chakra Petch" ,sanrif;
+    font-family: "Chakra Petch" ,sanrif;
     background-color: var(--botao-ativo);
     color: var(--branco);
     display: flex;
@@ -48,5 +48,5 @@
     border-left: 2px solid var(--botao-ativo);
     border-right: 2px solid var(--botao-ativo);
     border-top: nome;
-    
+
   }
