@@ -12,3 +12,9 @@ for (let i = 0;i<botoes.length;i++){
     }
 }
 
+const tempoObejetivo1 = new("2023-10-05T00:00:00")
+const tempoObejetivo2 = new("2023-12-05T00:00:oo")
+const tempoObejetivo3 = new("2023-12-30T00:00:00")
+const tempoObejetivo4 = new("2024-02-01Too:00:00")
+
+const tempos = [tempoObejetivo1, tempoObejetivo2, tempoObejetivo3, tempoObejetivo4];
