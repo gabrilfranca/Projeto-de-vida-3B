@@ -18,3 +18,11 @@ const tempoObejetivo3 = new("2023-12-30T00:00:00")
 const tempoObejetivo4 = new("2024-02-01Too:00:00")
 
 const tempos = [tempoObejetivo1, tempoObejetivo2, tempoObejetivo3, tempoObejetivo4];
+
+function calculaTemopo(tempoObejetivo){
+    let tempoAtual = new Date();
+    let tempoFinal = tempoObejetivo-tempoAtual;
+    let segundos = Math.floor(tempoFinal/1000);
+    let minutos = Math.floor(segundos/60);
+    let horas = Math.floor(minutos/60);
+}
