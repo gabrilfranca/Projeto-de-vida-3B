@@ -26,3 +26,13 @@ function calculaTemopo(tempoObejetivo){
     let minutos = Math.floor(segundos/60);
     let horas = Math.floor(minutos/60);
 }
+
+let dias = Math.floor(horas/24);
+segundos %= 60;
+minutos %= 60;
+horas %= 24;
+if (tempoFinal >0){
+    return [dias, horas, minutos,segundos];
+} else {
+    return[0,0,0,0];
+}
